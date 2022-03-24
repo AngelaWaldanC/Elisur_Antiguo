@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Elisur | Catalogo</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+
+<body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+    <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand navbar-danger navbar-light">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="catalogo.html" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="#" class="nav-link">Usuarios</a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="inventario.html" class="nav-link">Inventario</a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="ticket.html" class="nav-link">Sistema</a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="reportes.html" class="nav-link">Reporte</a>
+                </li>
+            </ul>
+
+
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+
+                <!-- Notifications Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="#">
+                        <i class="far fa-circle"></i>
+                        <span class="badge badge-warning navbar-badge"></span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                        <span class="dropdown-item dropdown-header">ELISUR</span>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-users mr-2"></i> Agregar otra Cuenta
+
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">
+                            <i class="fas fa-solid fa-power-off"></i> Cerrar Sesión</noscript>
+
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <!-- /.navbar -->
+
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <!-- Brand Logo -->
+            <a href="index3.html" class="brand-link">
+                <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+                    style="opacity: .8">
+                <span class="brand-text font-danger-light">ELISUR</span>
+            </a>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar user panel (optional) -->
+                <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                    <div class="image">
+                        <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                    </div>
+                    <div class="info">
+                        <a href="#" class="d-block">Joselin Paz</a>
+                    </div>
+                </div>
+
+                <!-- Sidebar Menu -->
+
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                        data-accordion="false">
+                        <!-- Add icons to the links using the .nav-icon class
+         with font-awesome or any other icon font library -->
+                        <li class="nav-header">MENÚ</li>
+                        <li class="nav-item">
+                            <a href="pages/calendar.html" class="nav-link">
+                                <i class="nav-icon fas fa-solid fa-user"></i>
+                                <p>
+                                    Usuarios
+                                    <span class="badge badge-info right"></span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="inventario.html" class="nav-link">
+                                <i class="nav-icon fas fa-solid fa-warehouse"></i>
+                                <p>
+                                    Inventario
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item has-treeview">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-solid fa-cart-arrow-down"></i>
+                                <p>
+                                    Servicios
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="ventasGen.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Ventas</p>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="reportes.html" class="nav-link">
+                                <i class="nav-icon fas fa-chart-pie"></i>
+                                <p>
+                                    Reportes
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="ticket.html" class="nav-link">
+                                <i class="nav-icon far fa-image"></i>
+                                <p>
+                                    Bolsa de Trabajo
+                                </p>
+                            </a>
+                        </li>
+        </aside>
+
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5HkimiT0qriiIH-AfhoQ-vzBFbC0ieCkSpA&usqp=CAU">
+                            <h1 class="m-0 text-dark">SERVICIOS</h1>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-sm-6">
+                            <ol class="breadcrumb float-sm-right">
+                                <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                                <li class="breadcrumb-item active">Servicios</li>
+                            </ol>
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+                </div><!-- /.container-fluid -->
+            </div>
+
+            <!-- /.card -->
+
+            <!-- /.card -->
+            <!-- /.main contant -->
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card card-outline card-danger">
+                                    <div class="card-header ">
+                                        <h5 class="m-0">Aire Acondicionado</h5>
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQR9VuPavuuORthY-B0c-6XtP2BQxLn98xlA&usqp=CAU"
+                                            class="img-size-51 mr-3 img-circle">
+
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Opciones:</p>
+                                        <a href="ventasGen.html" class="btn btn-primary">Ver Mas</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.card -->
+
+
+                            <!-- /.card -->
+                        </div>
+                        <!-- /.col-md-6 -->
+                        <div class="col-lg-4">
+                            <div class="card">
+
+                                <div class="card card-outline card-danger">
+                                    <div class="card-header">
+                                        <h5 class="m-0">Línea Telefonica</h5>
+                                        <img src="data:image/png;base64,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"
+                                            class="img-size-51 mr-3 img-circle">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Opciones:</p>
+                                        <a href="ventasGen.html" class="btn btn-primary">Ver Mas</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.card -->
+
+
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card card-outline card-danger">
+                                    <div class="card-header">
+                                        <h5 class="m-0">Sistema de Seguridad</h5>
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2v-w8xjD_TO9tdLLLLyX1B_-FFVuzpalc6Q&usqp=CAU"
+                                            class="img-size-52 mr-3 img-circle">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Opciones:</p>
+                                        <a href="ventasGen.html" class="btn btn-primary">Ver Mas</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.d-flex -->
+                </div>
+            </div>
+        </div>
+        <!-- /.col-md-6 -->
+    </div>
+    <!-- /.row -->
+    </div>
+    <!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+
+
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+        <!-- Control sidebar content goes here -->
+    </aside>
+    <!-- /.control-sidebar -->
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+        $.widget.bridge('uibutton', $.ui.button)
+    </script>
+    <!-- Bootstrap 4 -->
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- ChartJS -->
+    <script src="plugins/chart.js/Chart.min.js"></script>
+    <!-- Sparkline -->
+    <script src="plugins/sparklines/sparkline.js"></script>
+    <!-- JQVMap -->
+    <script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+    <script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+    <!-- jQuery Knob Chart -->
+    <script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+    <!-- daterangepicker -->
+    <script src="plugins/moment/moment.min.js"></script>
+    <script src="plugins/daterangepicker/daterangepicker.js"></script>
+    <!-- Tempusdominus Bootstrap 4 -->
+    <script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- Summernote -->
+    <script src="plugins/summernote/summernote-bs4.min.js"></script>
+    <!-- overlayScrollbars -->
+    <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/adminlte.js"></script>
+    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+    <script src="dist/js/pages/dashboard.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="dist/js/demo.js"></script>
+</body>
+
+</html>
