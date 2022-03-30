@@ -221,7 +221,7 @@
                 <!-- Add icons to the links using the .nav-icon class
                          with font-awesome or any other icon font library -->
                 <li class="nav-item menu-open">
-                  <a href="#" class="nav-link active">
+                  <a href="bolsatrabajo.html" class="nav-link active">
                     <i class="nav-icon fas fa-tachometer-alt"></i>
                     <p>
                       BOLSA DE TRABAJO
@@ -230,39 +230,20 @@
                   </a>
                   <ul class="nav nav-treeview">
                     <li class="nav-item">
-                      <a href="ticket.html" class="nav-link active">
+                      <a href="ticket.html" class="nav-link ">
                         <i class="far fa-circle nav-icon"></i>
-                        <p> TICKETS FALLA</p>
+                        <p> TICKET POR FALLA</p>
                       </a>
                     </li>
 
                     <li class="nav-item">
-                      <a href="presupuesto.html" class="nav-link">
+                      <a href="presupuesto.html" class="nav-link ">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>PRESUPUESTO</p>
+                        <p>TICKET PRESUPUESTO</p>
                       </a>
                     </li>
-
-
-
-
                   </ul>
                 </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
               </ul>
             </nav>
@@ -278,13 +259,13 @@
             <div class="container-fluid">
               <div class="row mb-2">
                 <div class="col-sm-6">
-                  <h1 class="m-0">AREA DE TICKETS</h1>
+                  <h1 class="m-0">BOLSA DE TRABAJO</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                   <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item"><a href="bolsatrabajo.html">Bolsa de Trabajo</a></li>
+                    <li class="breadcrumb-item"><a href="catalogo.html">Inicio</a></li>
                     <!-- ----<li class="breadcrumb-item active">Dashboard v1</li>------- -->
-                    <li class="breadcrumb-item active">Ticket</li>
+
                   </ol>
                 </div><!-- /.col -->
               </div><!-- /.row -->
@@ -294,262 +275,123 @@
 
           <!-- Main content -->
 
-
-
-          <!-- -------------tablas -------------<li class="breadcrumb-item active">Dashboard v1</li>------- -->
-          <!-- ----------------------------------tablas fallas -------------------- -->
-
-
-
-          <!-- Main content -->
           <section class="content">
-            <!-- Default box -->
-            <table class="table caption-top">
+
+            <div class="container-fluid">
 
 
 
-        </div>
+              <div class="row">
 
-        <thead>
-          <tr>
-            <th scope="col">CODIGO</th>
-            <th scope="col">NOMBE</th>
-            <th scope="col">EMPRESA</th>
-            <th scope="col">FECHA</th>
-            <th scope="col">TIPO </th>
-            <th scope="col">CATEGORIA</th>
-            <th scope="col">DESCRIPCION</th>
+                <div class="col-md-5">
+                  <div class="card">
+                    <div class="card card-outline card-danger">
+                      <div class="card-header ">
+                        <h1>TICKET</h1>
+                        <img src="https://ipcomsistemas.files.wordpress.com/2021/03/reporte-de-fallas-ipcom-sistemas.jpg" class="card-img-top" alt="imagen de tarjeta">
+                        <div class="card-body">
 
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">10235</th>
-            <td>Jose</td>
-            <td>anonimo</td>
-            <td>02-05-2022</td>
-            <td>sistema</td>
-            <td>Incidente</td>
-            <td>no inicia sistema</td>
-
-
-            <td>
-              <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#compraModal">
-                  EDITAR
-                </button>
-                <button type="button" class="btn btn-danger">Eliminar</button>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">95035</th>
-            <td>Carlos</td>
-            <td>anonimo</td>
-            <td>02-05-2022</td>
-            <td>Hadware</td>
-            <td>Solicitud</td>
-            <td>teclado y mouse</td>
-
-            <td>
-              <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#compraModal">
-                    EDITAR
-                  </button>
-                  <button type="button" class="btn btn-danger">Eliminar</button>
-                </div>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">13820</th>
-            <td>maria</td>
-            <td>anonimo</td>
-            <td>02-05-2022</td>
-            <td>sistema</td>
-            <td>Incidente</td>
-            <td>usuario</td>
-
-            <td>
-              <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#compraModal">
-                  EDITAR
-                </button>
-                <button type="button" class="btn btn-danger">Eliminar</button>
-              </div>
-            </td>
-          </tr>
-
-        </tbody>
-        </table>
-
-        </section>
-        <!-- /.content -->
-
-        <!-- Modal -->
-        <div class="modal fade" id="compraModal" tabindex="-1" role="dialog" aria-labelledby="compraModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="compraModalLabel">EDITAR </h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <!--Formulario del Modal-->
-              <div class="modal-body">
-                <div class="input-group mb-3">
-                  <span class="input-group-text" id="basic-addon1"></span>
-                  <input type="text" class="form-control" placeholder="Nombre " aria-label="Username"
-                    aria-describedby="basic-addon1">
+                          <p class="card-text">
+                            Da clic en el boton visualizar para poder ver los tickets pendientes
+                          </p>
+                          <a href="ticket.html" class="btn btn-primary"> VISUALIZAR</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
 
-                <div class="input-group mb-3">
-                  <span class="input-group-text" id="basic-addon1"></span>
-                  <input type="text" class="form-control" placeholder="Empresa " aria-label="Username"
-                    aria-describedby="basic-addon1">
+
+                <div class="col-md-6">
+                  <div class="card">
+                    <div class="card card-outline card-danger">
+                      <div class="card-header ">
+                        <h1>PRESUPUESTO</h1>
+                        <img src="https://www.forjadores.mx/wp-content/uploads/2020/10/grafico_1.png" class="card-img-top" alt="imagen de tarjeta">
+                        <div class="card-body">                          
+                          <p class="card-text">
+                            Da clic en el boton visualizar para poder ver los reportes pendientes
+                          </p>
+                          <a href="presupuesto.html" class="btn btn-primary"> VISUALIZAR</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-
-
-                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                  <option selected>Tipo</option>
-                  <option value="1">Sistema</option>
-                  <option value="2">Usuario</option>
-                  <option value="3">Red</option>
-                </select>
-                
-                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                  <option selected>Categoria</option>
-                  <option value="1">Incidente</option>
-                  <option value="2">Solicitud</option>
-                  
-                </select>
-
-
-
-
-
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Descripcion</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=" ">
-                </div>
-               
-               
 
 
 
                 
-
-               
-
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                <button type="button" class="btn btn-primary">Guardar</button>
-              </div>
-              <!--Fin del Modal-->
             </div>
-          </div>
+          </section>
+
         </div>
 
 
 
 
-        <!-- ----------------------------------fin tablas ---------------------------- -->
+
+
 
 
         <!-- /.content -->
+
+        <!-- /.content-wrapper -->
+
+
+
+
+
+
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+          <!-- Control sidebar content goes here -->
+        </aside>
+        <!-- /.control-sidebar -->
       </div>
-      <!-- /.content-wrapper -->
+      <!-- ./wrapper -->
 
+      <!-- jQuery -->
+      <script src="plugins/jquery/jquery.min.js"></script>
+      <!-- jQuery UI 1.11.4 -->
+      <script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+      <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+      <script>
+        $.widget.bridge('uibutton', $.ui.button)
+      </script>
+      <!-- Bootstrap 4 -->
+      <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <!-- ChartJS -->
+      <script src="plugins/chart.js/Chart.min.js"></script>
+      <!-- Sparkline -->
+      <script src="plugins/sparklines/sparkline.js"></script>
+      <!-- JQVMap -->
+      <script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+      <script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+      <!-- jQuery Knob Chart -->
+      <script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+      <!-- daterangepicker -->
+      <script src="plugins/moment/moment.min.js"></script>
+      <script src="plugins/daterangepicker/daterangepicker.js"></script>
+      <!-- Tempusdominus Bootstrap 4 -->
+      <script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+      <!-- Summernote -->
+      <script src="plugins/summernote/summernote-bs4.min.js"></script>
+      <!-- overlayScrollbars -->
+      <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+      <!-- AdminLTE App -->
+      <script src="dist/js/adminlte.js"></script>
+      <!-- AdminLTE for demo purposes -->
+      <script src="dist/js/demo.js"></script>
+      <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+      <script src="dist/js/pages/dashboard.js"></script>
+    </body>
 
-      <!-- Control Sidebar -->
-      <aside class="control-sidebar control-sidebar-dark">
-        <!-- Control sidebar content goes here -->
-      </aside>
-      <!-- /.control-sidebar -->
-  </div>
-  <!-- ./wrapper -->
-
-
-
-  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    EDITAR
-  </button>
-
-
-
-
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
+    <!-- Preloader -->
+    <div class="preloader flex-column justify-content-center align-items-center">
+      <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
     </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-  <!-- jQuery -->
-  <script src="plugins/jquery/jquery.min.js"></script>
-  <!-- jQuery UI 1.11.4 -->
-  <script src="plugins/jquery-ui/jquery-ui.min.js"></script>
-  <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-  <script>
-    $.widget.bridge('uibutton', $.ui.button)
-  </script>
-  <!-- Bootstrap 4 -->
-  <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!-- ChartJS -->
-  <script src="plugins/chart.js/Chart.min.js"></script>
-  <!-- Sparkline -->
-  <script src="plugins/sparklines/sparkline.js"></script>
-  <!-- JQVMap -->
-  <script src="plugins/jqvmap/jquery.vmap.min.js"></script>
-  <script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
-  <!-- jQuery Knob Chart -->
-  <script src="plugins/jquery-knob/jquery.knob.min.js"></script>
-  <!-- daterangepicker -->
-  <script src="plugins/moment/moment.min.js"></script>
-  <script src="plugins/daterangepicker/daterangepicker.js"></script>
-  <!-- Tempusdominus Bootstrap 4 -->
-  <script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
-  <!-- Summernote -->
-  <script src="plugins/summernote/summernote-bs4.min.js"></script>
-  <!-- overlayScrollbars -->
-  <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-  <!-- AdminLTE App -->
-  <script src="dist/js/adminlte.js"></script>
-  <!-- AdminLTE for demo purposes -->
-  <script src="dist/js/demo.js"></script>
-  <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-  <script src="dist/js/pages/dashboard.js"></script>
-</body>
-
-<!-- Preloader -->
-<div class="preloader flex-column justify-content-center align-items-center">
-  <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
-</div>
 
 </html>
